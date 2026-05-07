@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Zone - متجر الألعاب</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- شريط التنقل العلوي -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">🎮 Game Zone</div>
+            <ul class="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- قسم البداية الرئيسي -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>أرحباً بك في Game Zone</h1>
+            <p>اكتشف أفضل الألعاب والتطبيقات</p>
+        </div>
+    </section>
+
+    <!-- قسم الألعاب -->
+    <section class="games-section">
+        <div class="container">
+            <h2>الألعاب المتوفرة</h2>
+            <div class="games-grid">
+                <!-- بطاقة GTA V -->
+                <div class="game-card">
+                    <div class="game-image">
+                        <img src="https://images.unsplash.com/photo-1538481143235-c8f91519cde0?w=400&h=500&fit=crop" alt="GTA V">
+                    </div>
+                    <div class="game-info">
+                        <h3>GTA V</h3>
+                        <p class="price">السعر: $59.99</p>
+                        <button class="btn-buy" onclick="buyGame('GTA V')">اشتري الآن</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الاتصال -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>اتصل بنا</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="icon">📧</span>
+                    <p id="email">البريد الإلكتروني: قريباً</p>
+                </div>
+                <div class="contact-item">
+                    <span class="icon">📱</span>
+                    <p id="phone">الهاتف: قريباً</p>
+                </div>
+                <div class="contact-item">
+                    <span class="icon">📍</span>
+                    <p id="address">العنوان: قريباً</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- التذييل -->
+    <footer class="footer">
+        <p>&copy; 2026 Game Zone. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
